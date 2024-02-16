@@ -1,1 +1,5 @@
 # Linux-Commands
+
+##The project revolves around adjusting file and directory permissions in a Linux environment to ensure appropriate levels of authorization. Using the ls -l command, the current permissions in the designated directory (/home/researcher2/projects) are reviewed and modified as necessary for different users. The permissions string, such as "drwx---x--", indicates permissions for users, groups, and others, with "r" for read, "w" for write, and "x" for execute. Modifications involve restricting write access to certain files like project_k.txt and hidden files like .Project_x.txt, ensuring only viewing permissions. Specific directories like draughts are restricted to only the researcher2 user. The chmod command is utilized to adjust permissions, ensuring proper access levels for users, user groups, and other users. The adjustments made are verified using the ls -la command on the Linux OS. Overall, the project ensures that file and directory permissions align with security and access requirements.
+
+
